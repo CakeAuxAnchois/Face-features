@@ -8,8 +8,8 @@ WIDTH = 96
 STRIDE = 2
 FSIZE = [5, 5]
 PSIZE = [2, 2]
-BATCH_SIZE = 100
-EPOCHS = 20
+BATCH_SIZE = 64
+EPOCHS = 100
 TEST_SIZE = 0.2
 
 def shuffle(data, labels):
